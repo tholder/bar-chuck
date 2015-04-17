@@ -2,13 +2,13 @@
 
 A bar game featuring Chuck Norris!
 
-Built for the #swchallenge Twillio hack night, this is just a bit of fun.
+Built for the [#swchallenge](https://twitter.com/search?q=%23swchallenge) Twillio hack night, this is just a bit of fun.
 
-Someone texts START to the twillio number.
+Someone texts START to the twilio number.
 
 A code is returned.
 
-People tet JOIN code
+People text JOIN code
 
 When people are done drinking they text BEER.
 
