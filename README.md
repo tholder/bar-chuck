@@ -8,7 +8,7 @@ Someone texts START to the twillio number.
 
 A code is returned.
 
-People tet JOIN <code>
+People tet JOIN code
 
 When people are done drinking they text BEER.
 
