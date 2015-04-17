@@ -77,9 +77,8 @@ def leave(from)
 end
 
 def call_loser(to)
-
-  account_sid = "AC6f3bbde8900c17a6375acbc324cc1bd6"
-  auth_token = "31faf02d26340e531f4501628b29283b"
+  account_sid = ENV["account_sid"]
+  auth_token = ENV["auth_token"]
 
   client = Twilio::REST::Client.new account_sid, auth_token
 
@@ -89,7 +88,6 @@ def call_loser(to)
     # Fetch instructions from this URL when the call connects
     :url => 'http://c9939817.ngrok.io/twiml'
   )
-
 end
 
 def assign_player_code(from, code)
