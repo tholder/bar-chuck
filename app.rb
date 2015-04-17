@@ -116,5 +116,3 @@ def number_of_players_in_game(from, code)
   redis = Redis.new
   redis.llen("barchuck_game_" + code)
 end
-
-#r.Message ChuckNorris.random
