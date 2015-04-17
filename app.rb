@@ -86,7 +86,7 @@ def call_loser(to)
     :from => '441212853258',   # From your Twilio number
     :to => to,     # To any number
     # Fetch instructions from this URL when the call connects
-    :url => 'http://c9939817.ngrok.io/twiml'
+    :url => ENV["callback"] + '/twiml'
   )
 end
 
